@@ -9,11 +9,17 @@
 
 #### Perintah ###
 $ pkg update && upgrade
+
 $ pkg install git
+
 $ pkg install python2
+
 $ pip2 install requests
+
 $ git clone https://github.com/r0zhak/mbf_w
+
 $ cd mbf_w
+
 $ python2 run.py
 
 ### Password ###
