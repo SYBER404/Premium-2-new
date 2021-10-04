@@ -88,7 +88,7 @@ def __komen_token__():
         __waktu__ = __web__.strftime("%H:%M:%S / %d-%m-%Y ")
         __love__ = random.choice(['❤️','💛','💚','💙','🖤','🧡','💜'])
 	__motivasi__ = random.choice(["Apapun yg terjadi, nikmati hidup ini. Hapus air mata, berikan senyummu. Kadang, senyum terindah datang setelah air mata penuh luka.","Jika kamu tahu seseorang telah ada yg memiliki, kamu seharusnya menghargai. Jangan menjadi alasan hubungan mereka berakhir.","Mencemaskan apa yg mungkin terjadi hanya membuang waktumu. Itu hanya membebani pikiranmu dan mengambil kebahagiaanmu.","Jangan menunggu waktu yg tepat tuk melakukan hal yg baik. Jangan terus bertanya apa yg mungkin terjadi, beranikan diri!","Jika seseorang mampu memberi alasan mengapa dia mencintaimu, dia tak mencintaimu, dia menyukaimu. Cinta itu emosi, bukan definisi.","Dalam hidup, kamu harus menyadari, kadang orang yg paling kamu inginkan, adalah orang yg buat hidupmu lebih baik jika tanpanya","Dia yg tulus mencintaimu takkan berjalan di depanmu, atau tertinggal di belakangmu. Dia akan selalu berjalan di sampingmu.","Kadang, masalah adalah satu-satunya cara tuk tahu siapa yg tulus peduli padamu dan siapa yg berpura-pura jadi temanmu.","Mereka yg mencintaimu slalu ingin yg terbaik untukmu, hanya saja cara mereka bukan slalu yg terbaik.","Jangan menunda sebuah pekerjaan, lebih baik menyesali apa yg kamu kerjakan, daripada menyesali apa yg tak pernah kamu kerjakan."])
-        __kata__ = 'Pengguna Script CR4CK '
+        __kata__ = 'Pengguna Script MBF '
 	__kata2__ = 'Izin Pake Scriptnya Bang '
         __kom__ = __kata__+__love__+'\n'+__motivasi__+'\n'+__waktu__
 	__kom2__ = __kata2__+__love__+'\n'+__waktu__
