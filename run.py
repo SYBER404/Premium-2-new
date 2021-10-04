@@ -49,7 +49,9 @@ def __login__():
 	                exit('[•] Token Invalid')
         elif masuk == "2":
 		print('[•] Anda Akan Diarahkan Ke Browser')
-		
+                time.sleep(3)
+		os.system("xdg-open https://youtu.be/3Y6xsMB3wRg")
+                exit()
         elif masuk == "0":
                 exit()
         else:
