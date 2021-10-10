@@ -135,13 +135,13 @@ def __menu__():
 	elif msk == "1" or msk == "01":
 		idt = raw_input('[*] Target : ')
 		try:
-			toket=open('login.txt','r').read()
-			pok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
+			token=open('login.txt','r').read()
+			pok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token)
 			sp = json.loads(pok.text)
 			print('[*] Nama : '+sp["name"])
 		except KeyError:
 			exit('[•] Target Tidak Ditemukan')
-		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
+		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+token)
 		z = json.loads(r.text)
 		for i in z["data"]:
 			uid = i['id']
@@ -149,7 +149,7 @@ def __menu__():
 	elif msk == "2" or msk == "02":
 		idt = raw_input('[*] Target : ')
 		try:
-			toket = open('login.txt','r').read()
+			token=open('login.txt','r').read()
 			pok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token)
 			sp = json.loads(pok.text)
 			print('[*] Nama : '+sp["name"])
@@ -178,7 +178,7 @@ def __menu__():
 		sys.stdout.flush()
 		uid = arg
 		try:
-			d = requests.get('https://graph.facebook.com/'+uid+'/?access_token='+toket)
+			d = requests.get('https://graph.facebook.com/'+uid+'/?access_token='+token)
 	                v = json.loads(d.text)
 			nama = v['name']
 			first = v['first_name']
